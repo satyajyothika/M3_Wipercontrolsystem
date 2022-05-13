@@ -49,3 +49,41 @@ Keeping the windscreen clean so that you may see well at all times.
 ### How:
 
 It is implemented using the STM32 microcontroller.
+
+## High Level Requirements
+
+<html>
+<body>
+<!--StartFragment-->
+
+ID | Description | Status 
+-- | -- | --
+HLR-1 | Operation in ACC Mode | Implemented
+HLR-2 | Activation of the Wiper System | Implemented
+HLR-3 | Control the wiper speed | Implemented  
+HLR-4 | Deactivation of the Wiper System | Implemented
+HLR-5 | Operation in lock Mode | Implemented
+
+<!--EndFragment-->
+</body>
+</html>
+
+## Low Level Requirements
+
+<html>
+<body>
+<!--StartFragment-->
+
+ID | Description | Status 
+-- | -- | --
+LLR-1 | Push button pressed once for 2 sec-ON RED LED | Implemented
+LLR-2 | Button pressed once-Blue, Green, Orange blink with 1HZ | Implemented
+LLR-3 | Button pressed second time-Blue, Green, Orange blink with 4HZ | Implemented
+LLR-4 | Button pressed third time-Blue, Green, Orange blink with 8HZ | Implemented
+LLR-5 | Button pressed fourth time-LED’s will stop blinking after coming to Blue LED | Implemented
+LLR-6 | Push button pressed again for 2 sec- OFF RED LED | Implemented
+
+
+<!--EndFragment-->
+</body>
+</html>
