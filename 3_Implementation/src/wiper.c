@@ -8,7 +8,7 @@
 
 #include "wiper.h"             // This will include user defined header files
 
-#include "wiper.h"            // This will include user defined header files
+#include "wiper1.h"            // This will include user defined header files
 
 #include <stdio.h>           // This will include declares functions that deal with standard input and output.
 
